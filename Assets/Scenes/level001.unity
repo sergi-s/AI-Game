@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.25
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.010232223, g: 0.04725615, b: 0.069345176, a: 0.25}
+  m_IndirectSpecularColor: {r: 0.009163617, g: 0.041922256, b: 0.06286604, a: 0.25}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -34723,6 +34723,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mob
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972952387395975486, guid: 9a72c5754c5a73340a2cfcfc01b6fd88,
+        type: 3}
+      propertyPath: speed
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5972952387395975486, guid: 9a72c5754c5a73340a2cfcfc01b6fd88,
         type: 3}
