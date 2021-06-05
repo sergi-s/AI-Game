@@ -23,14 +23,14 @@ public class FinishLevel : MonoBehaviour
     }
     void OnTriggerEnter()
     {
-        // GameObject[] gos = GameObject.FindGameObjectsWithTag("Enime");
-        // foreach (GameObject go in gos)
-        // {
-        //     go.SetActive(false);
-        // }
+        GameObject[] gos = GameObject.FindGameObjectsWithTag("Enime");
+        foreach (GameObject go in gos)
+        {
+            go.SetActive(false);
+        }
 
-        GameObject varGameObject = GameObject.FindWithTag("Enime");
-        varGameObject.GetComponent<AiFollow>().enabled = false;
+        // GameObject varGameObject = GameObject.FindWithTag("Enime");
+        // varGameObject.GetComponent<AiFollow>().enabled = false;
 
 
         GetComponent<BoxCollider>().enabled = false;

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.25
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.0010275528, g: 0.0026213995, b: 0.0037906787, a: 0.25}
+  m_IndirectSpecularColor: {r: 0.009105649, g: 0.041876607, b: 0.06282449, a: 0.25}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -24936,7 +24936,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562933324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.096, z: 0.055}
+  m_LocalPosition: {x: 0.01, y: 0.096, z: 0.055}
   m_LocalScale: {x: 0.5180072, y: 0.8030251, z: 0.3676}
   m_Children: []
   m_Father: {fileID: 496788744}
@@ -35085,7 +35085,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Created By Youssef Mohamed Sobhy & Mohamed Hesham
+  m_Text: 'Created By Habdology
 
 
 
@@ -36103,6 +36103,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mob (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972952387395975486, guid: 9a72c5754c5a73340a2cfcfc01b6fd88,
+        type: 3}
+      propertyPath: speed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5972952387395975486, guid: 9a72c5754c5a73340a2cfcfc01b6fd88,
         type: 3}
